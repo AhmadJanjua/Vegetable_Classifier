@@ -18,3 +18,18 @@ Hidden layer: The purpose of hidden layers is to model more complex data. Withou
 
 ### Pooling:
 Pooling is used to reduce the dimensions of the inputs. An added benefit of pooling is that it makes the neural network more general since it eliminates noise and generalizes the location and size of some features.
+
+### Dense Layers:
+A layer of fully connected neural networks. These are used to train the network to get the expected outputs.
+
+### Optimizers:
+Algorithms used to reduce the loss function. They change the weights, biases and control the learning rate in order to update those weights.
+
+### Loss Functions:
+A function that indicates a metric of difference between expected value and predicted value.
+
+## Results
+The model worked well for the provided dataset, but was not able to generalize well. To fix this we can do some preprocessing on the training images to make them contain noise. We can use the entire data set if possible and also add more depth in the feature extraction and fully connected layers. The last two were not possible due to the limits of my PC.
+
+## Model
+![plot](./images/cnn%20model.png)
